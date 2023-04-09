@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Codepolitan Attendance</title>
+  <title>Ruang Absen</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,16 +20,16 @@
 <!-- Automatic element centering -->
 <div class="lockscreen-wrapper">
   <div class="lockscreen-logo">
-    <a href="#"><b>Attendance</b>Live</a>
+    <a href="#"><b>Ruang</b> Absen</a>
   </div>
 
   <!-- START LOCK SCREEN ITEM -->
   <div class="lockscreen-item text-center">
-        <h2>Welcome Page</h2>
+        <h2>Selamat Datang</h2>
   </div>
   <!-- /.lockscreen-item -->
   <div class="help-block text-center">
-    Enter your email and password to retrieve your session
+    Silahkan login
   </div>
   <div class="text-center">
     <a href="{{ url('login') }}">login</a>
